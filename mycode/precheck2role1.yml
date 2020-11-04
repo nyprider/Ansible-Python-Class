@@ -20,7 +20,7 @@
     copy:
       # Use the to_no_json filter to display pretty JSON output
       content: "{{ ansible_facts | to_nice_json }}"
-      dest: "/home/student/mycode/{{ inventory_hostname }}.txt"
+      dest: "/home/student/Ansible-Python-Class/mycode/{{ inventory_hostname }}.txt"
       # The inventory_hostname variable always resolves to the current host being iterated against
     tags:
       - never
