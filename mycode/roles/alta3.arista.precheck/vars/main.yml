@@ -1,0 +1,7 @@
+---
+# vars file for roles/alta3.arista.precheck
+#
+# ---
+switchint: 1
+switchver: "4.22"
+
